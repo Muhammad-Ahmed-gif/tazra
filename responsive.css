@@ -1,0 +1,877 @@
+@media (max-width: 1300px) and (min-width: 900px) {
+  .first h1{
+    font-size: larger;
+    margin-top: 10vh;
+  }
+  .mission{
+    margin-top: 10vh;
+  }
+  .start{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .see{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .seventh p{
+    font-size: larger;
+  }
+  .seventh button{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .custom{
+    font-size: 12px;
+    width: 85vw;
+  }
+  .tenth{
+    width: 85vw;
+  }
+  video{
+    margin-top: -5vh;
+  }
+   nav {
+    height: 12vh;
+    position: relative;
+  }
+  .logo {
+    width: 20vw;
+    margin-left: -4vw;
+  }
+  nav h1 {
+    font-size: 1.1rem;
+    margin-left: -5vw;
+  }
+.menu-btn {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 28px;
+  }
+  .hamburger {
+    width: 28px;
+  }
+  .hamburger::before,
+  .hamburger::after {
+    width: 28px;
+  }
+  .nav-links {
+    position: absolute;
+    top: 12vh;
+    right: 0vw;
+    width: 100vw;
+    flex-direction: column;
+    background: linear-gradient(135deg, #1e3a8a, rgb(20, 0, 77));
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  .nav-links.active {
+    max-height: 300px;
+    opacity: 1;
+    padding-bottom: 10px;
+  }
+  .nav-links li {
+    width: 100%;
+    text-align: left;
+    padding: 15px 0 15px 20px;
+  }
+  nav ul li a {
+    font-size: 1.1rem;
+  }
+  .logo {
+    height: 12vh;
+  }
+  .choose{
+    display: block;
+    align-items: center;
+    font-size: small;
+    margin: 15vw;
+    margin-top: 5vw;
+  }
+  .card{
+    width: 70%;
+    height: 50%;
+    margin: 6vw;
+    justify-content: center;
+  }
+
+  .ninth {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 5vw;
+    margin: 5vh 0;
+  }
+  .form {
+    width: 75vw;
+    height: auto;
+    padding: 3vh 3vw;
+    margin-bottom: 3vh;
+  }
+  .form h1 {
+    font-size: 1.8rem;
+    padding: 2vh 0 0 2vw;
+  }
+  .form p {
+    font-size: 0.9rem;
+    padding: 0.4vh 0 0 2vw;
+  }
+  .form-group {
+    margin: 2vh 0;
+  }
+  input,
+  textarea {
+    width: 73vw;
+    margin-left: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .submit {
+    width: 60vw;
+    height: 6vh;
+    font-size: 0.9rem;
+  }
+  .map iframe {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+  }
+  .last_footer {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 5vw;
+    margin-top: 5vh;
+  }
+  .auto {
+    width: 90vw;
+    margin: 0 0 3vh;
+  }
+  .auto img {
+    width: 30vw;
+    height: auto;
+    margin-right: 61vw;
+  }
+  .images{
+    margin-right: 68vw;
+  }
+  .pages,
+  .services,
+  .contact {
+    width: 90vw;
+    margin: 6vh 0;
+    text-align: left;
+    padding: 30px;
+    justify-content: space-between;
+  }
+  .pages h2,
+  .services h2,
+  .contact h2 {
+    font-size: 1.6rem;
+    padding: 0 0 3vh;
+    margin-top: 0;
+  }
+  .pages p,
+  .services p,
+  .contact p {
+    font-size: 1rem;
+    margin-bottom: 6vh;
+  }
+
+  .solutions, .marketing, .custom-dev {
+    padding: 5vh 5vw;
+  }
+  .solutions h1, .marketing h1, .custom-dev h1 {
+    font-size: 1.8rem;
+    padding-bottom: 3vh;
+  }
+  .solutions .container, .marketing .container, .custom-dev .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .solutions .box, .marketing .box, .custom-dev .box {
+    width: 90vw;
+    margin-bottom: 2vh;
+    padding: 3vh 3vw;
+  }
+  .solutions .box h2, .marketing .box h2, .custom-dev .box h2 {
+    font-size: 1.2rem;
+    padding-bottom: 1.5vh;
+  }
+  .solutions .box p, .marketing .box p, .custom-dev .box p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 500px) {
+   nav {
+    height: 12vh;
+    position: relative;
+  }
+  .logo {
+    width: 20vw;
+    height: 8vh;
+    margin-left: -4vw;
+  }
+  nav h1 {
+    font-size: 1rem;
+    margin-left: -5vw;
+  }
+.menu-btn {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 28px;
+  }
+  .hamburger {
+    width: 28px;
+  }
+  .hamburger::before,
+  .hamburger::after {
+    width: 28px;
+  }
+  .nav-links {
+    position: absolute;
+    top: 12vh;
+    right: 0vw;
+    width: 100vw;
+    flex-direction: column;
+    background: linear-gradient(135deg, #1e3a8a, rgb(20, 0, 77));
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  .nav-links.active {
+    max-height: 300px;
+    opacity: 1;
+    padding-bottom: 10px;
+  }
+  .nav-links li {
+    width: 100%;
+    text-align: left;
+    padding: 15px 0 15px 20px;
+  }
+  nav ul li a {
+    font-size: 1.1rem;
+  }
+  .first {
+    height: auto;
+    margin-top: 25vh;
+    font-size: smaller;
+    text-align: center;
+  }
+  .first h1 {
+    font-size: 1.8rem;
+    padding-top: 3vh;
+  }
+  .first p {
+    font-size: 0.9rem;
+    margin: 0;
+    padding-top: 2vh;
+  }
+  .start {
+    width: 80vw;
+    height: 7vh;
+    font-size: 0.9rem;
+    margin: 3vh auto;
+  }
+  video {
+    top: 12vh;
+    height: 80vh;
+  }
+
+  .second_mission {
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+  }
+  .mission {
+    font-size: 1.8rem;
+    padding-top: 5vh;
+  }
+  .para {
+    width: 90vw;
+    margin-top: 3vh;
+  }
+  .para p {
+    font-size: 0.9rem;
+    padding: 3vh 3vw;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vh;
+  }
+  .item {
+    width: 90vw;
+    height: auto;
+    margin-bottom: 2vh;
+    padding: 3vh 3vw;
+  }
+  .item img {
+    width: 12vw;
+    height: auto;
+    margin: 2vh auto;
+  }
+  .item p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .third {
+    margin-bottom: 5vh;
+  }
+  .third h1 {
+    font-size: 1.8rem;
+    padding-top: 5vh;
+  }
+  .third p {
+    font-size: 0.9rem;
+    padding: 3vh 5vw;
+  }
+
+  .sixth {
+    padding-bottom: 5vh;
+  }
+  .sixth h1 {
+    font-size: 1.8rem;
+    margin-top: 50vh;
+  }
+  .sixth p {
+    font-size: 0.9rem;
+    padding: 3vh 5vw;
+  }
+  .see {
+    width: 80vw;
+    height: 7vh;
+    font-size: 0.9rem;
+    margin: 0 auto 5vh;
+  }
+  .industry {
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxes {
+    width: 90vw;
+    margin: 2vh 0;
+    padding: 2vh 3vw;
+    font-size: 30px;
+  }
+  .boxes img {
+   margin-left: 2vw;
+    padding-top: 2.6vh;
+    padding-bottom: 2.6vh;
+  }
+  .boxes h4 {
+    font-size: 1rem;
+  }
+
+  .choose{
+    display: block;
+    align-items: center;
+    font-size: small;
+    margin: 15vw;
+    margin-top: 5vw;
+  }
+  .card{
+    width: 70%;
+    height: 40%;
+    margin: 6vw;
+    
+    justify-content: center;
+  }
+  .card p{
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  .seventh {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 5vw;
+    margin: 5vh 0;
+  }
+  .seventh p {
+    font-size: 1.5rem;
+    padding: 2vh 0;
+    line-height: 1.8rem;
+    text-align: center;
+  }
+  .seventh button {
+    position: static;
+    width: 80vw;
+    height: 7vh;
+    font-size: 0.9rem;
+    margin: 2vh auto;
+  }
+
+   .ninth {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 5vw;
+    margin: 5vh 0;
+  }
+  .form {
+    width: 75vw;
+    height: auto;
+    padding: 3vh 3vw;
+    margin-bottom: 3vh;
+  }
+  .form h1 {
+    font-size: 1.8rem;
+    padding: 2vh 0 0 2vw;
+  }
+  .form p {
+    font-size: 0.9rem;
+    padding: 0.4vh 0 0 2vw;
+  }
+  .form-group {
+    margin: 2vh 0;
+  }
+  input,
+  textarea {
+    width: 73vw;
+    margin-left: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .submit {
+    width: 60vw;
+    height: 6vh;
+    font-size: 0.9rem;
+  }
+  .map iframe {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+  }
+
+  .tenth {
+    padding: 5vh 5vw;
+  }
+  .tenth h1 {
+    font-size: 1.8rem;
+    padding-bottom: 5vh;
+  }
+  .tenth h2 {
+    font-size: 1rem;
+    padding: 2vh 0;
+  }
+  .custom p {
+    font-size: 0.9rem;
+    padding-bottom: 3vh;
+  }
+
+  .last_footer {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 5vw;
+    margin-top: 5vh;
+  }
+  .auto {
+    width: 90vw;
+    margin: 0 0 3vh;
+  }
+  .auto img {
+    width: 30vw;
+    height: auto;
+    margin-right: 61vw;
+  }
+  .images{
+    margin-right: 62vw;
+  }
+  .pages,
+  .services,
+  .contact {
+    width: 90vw;
+    margin: 6vh 0;
+    text-align: left;
+    padding: 30px;
+    justify-content: space-between;
+  }
+  .pages h2,
+  .services h2,
+  .contact h2 {
+    font-size: 1.6rem;
+    padding: 0 0 3vh;
+    margin-top: 0;
+  }
+  .pages p,
+  .services p,
+  .contact p {
+    font-size: 1rem;
+    margin-bottom: 6vh;
+  }
+
+  .solutions, .marketing, .custom-dev {
+    padding: 5vh 5vw;
+  }
+  .solutions h1, .marketing h1, .custom-dev h1 {
+    font-size: 1.8rem;
+    padding-bottom: 3vh;
+  }
+  .solutions .container, .marketing .container, .custom-dev .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .solutions .box, .marketing .box, .custom-dev .box {
+    width: 90vw;
+    margin-bottom: 2vh;
+    padding: 3vh 3vw;
+  }
+  .solutions .box h2, .marketing .box h2, .custom-dev .box h2 {
+    font-size: 1.2rem;
+    padding-bottom: 1.5vh;
+  }
+  .solutions .box p, .marketing .box p, .custom-dev .box p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+   nav {
+    height: 12vh;
+    position: relative;
+  }
+  .logo {
+    width: 30vw;
+    height: 6vh;
+    margin-left: -4vw;
+  }
+  nav h1 {
+    font-size: 1rem;
+    margin-left: -5vw;
+  }
+.menu-btn {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 28px;
+  }
+  .hamburger {
+    width: 28px;
+  }
+  .hamburger::before,
+  .hamburger::after {
+    width: 28px;
+  }
+  .nav-links {
+    position: absolute;
+    top: 12vh;
+    right: 0vw;
+    width: 100vw;
+    flex-direction: column;
+    background: linear-gradient(135deg, #1e3a8a, rgb(20, 0, 77));
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  .nav-links.active {
+    max-height: 300px;
+    opacity: 1;
+    padding-bottom: 10px;
+  }
+  .nav-links li {
+    width: 100%;
+    text-align: left;
+    padding: 15px 0 15px 20px;
+  }
+  nav ul li a {
+    font-size: 1.1rem;
+  }
+  .first {
+    height: auto;
+    margin-top: 25vh;
+    font-size: smaller;
+    text-align: center;
+  }
+  .first h1 {
+    font-size: 1.8rem;
+    padding-top: 3vh;
+  }
+  .first p {
+    font-size: 0.9rem;
+    margin: 0;
+    padding-top: 2vh;
+  }
+  .start {
+    width: 80vw;
+    height: 7vh;
+    font-size: 0.9rem;
+    margin: 3vh auto;
+  }
+  video {
+    top: 12vh;
+    height: 80vh;
+  }
+
+  .second_mission {
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+  }
+  .mission {
+    font-size: 1.8rem;
+    padding-top: 5vh;
+  }
+  .para {
+    width: 90vw;
+    margin-top: 3vh;
+  }
+  .para p {
+    font-size: 0.9rem;
+    padding: 3vh 3vw;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vh;
+  }
+  .item {
+    width: 90vw;
+    height: auto;
+    margin-bottom: 2vh;
+    padding: 3vh 3vw;
+  }
+  .item img {
+    width: 12vw;
+    height: auto;
+    margin: 2vh auto;
+  }
+  .item p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .third {
+    margin-bottom: 5vh;
+  }
+  .third h1 {
+    font-size: 1.8rem;
+    padding-top: 5vh;
+  }
+  .third p {
+    font-size: 0.9rem;
+    padding: 3vh 5vw;
+  }
+
+  .sixth {
+    padding-bottom: 5vh;
+  }
+  .sixth h1 {
+    font-size: 1.8rem;
+    margin-top: 50vh;
+  }
+  .sixth p {
+    font-size: 0.9rem;
+    padding: 3vh 5vw;
+  }
+  .see {
+    width: 80vw;
+    height: 7vh;
+    font-size: 0.9rem;
+    margin: 0 auto 5vh;
+  }
+  .industry {
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxes {
+    width: 90vw;
+    margin: 2vh 0;
+    padding: 2vh 3vw;
+    font-size: 30px;
+  }
+  .boxes img {
+   margin-left: 2vw;
+    padding-top: 2.6vh;
+    padding-bottom: 2.6vh;
+  }
+  .boxes h4 {
+    font-size: 1rem;
+  }
+
+  .choose{
+    display: block;
+    align-items: center;
+    font-size: small;
+    margin: 15vw;
+    margin-top: 5vw;
+  }
+  .card{
+    width: 70%;
+    height: 40%;
+    margin: 6vw;
+    
+    justify-content: center;
+  }
+  .card p{
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  .seventh {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 5vw;
+    margin: 5vh 0;
+  }
+  .seventh p {
+    font-size: 1.5rem;
+    padding: 2vh 0;
+    line-height: 1.8rem;
+    text-align: center;
+  }
+  .seventh button {
+    position: static;
+    width: 80vw;
+    height: 7vh;
+    font-size: 0.9rem;
+    margin: 2vh auto;
+  }
+
+   .ninth {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 5vw;
+    margin: 5vh 0;
+  }
+  .form {
+    width: 79vw;
+    height: auto;
+    padding: 3vh 3vw;
+    margin-bottom: 3vh;
+  }
+  .form h1 {
+    font-size: 1.8rem;
+    padding: 2vh 0 0 2vw;
+  }
+  .form p {
+    font-size: 0.9rem;
+    padding: 0.4vh 0 0 2vw;
+  }
+  .form-group {
+    margin: 2vh 0;
+  }
+  input,
+  textarea {
+    width: 73vw;
+    margin-left: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .submit {
+    width: 60vw;
+    height: 6vh;
+    font-size: 0.9rem;
+  }
+  .map iframe {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+  }
+
+  .tenth {
+    padding: 5vh 5vw;
+  }
+  .tenth h1 {
+    font-size: 1.8rem;
+    padding-bottom: 5vh;
+  }
+  .tenth h2 {
+    font-size: 1rem;
+    padding: 2vh 0;
+  }
+  .custom p {
+    font-size: 0.9rem;
+    padding-bottom: 3vh;
+  }
+
+  .last_footer {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 5vw;
+    margin-top: 5vh;
+  }
+  .auto {
+    width: 90vw;
+    margin: 0 0 3vh;
+  }
+  .auto img {
+    width: 30vw;
+    height: auto;
+    margin-right: 52vw;
+  }
+  .images{
+    margin-right: 52vw;
+  }
+  .pages,
+  .services,
+  .contact {
+    width: 90vw;
+    margin: 6vh 0;
+    text-align: left;
+    padding: 30px;
+    justify-content: space-between;
+  }
+  .pages h2,
+  .services h2,
+  .contact h2 {
+    font-size: 1.6rem;
+    padding: 0 0 3vh;
+    margin-top: 0;
+  }
+  .pages p,
+  .services p,
+  .contact p {
+    font-size: 1rem;
+    margin-bottom: 6vh;
+  }
+
+  .solutions, .marketing, .custom-dev {
+    padding: 5vh 5vw;
+  }
+  .solutions h1, .marketing h1, .custom-dev h1 {
+    font-size: 1.8rem;
+    padding-bottom: 3vh;
+  }
+  .solutions .container, .marketing .container, .custom-dev .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .solutions .box, .marketing .box, .custom-dev .box {
+    width: 90vw;
+    margin-bottom: 2vh;
+    padding: 3vh 3vw;
+  }
+  .solutions .box h2, .marketing .box h2, .custom-dev .box h2 {
+    font-size: 1.2rem;
+    padding-bottom: 1.5vh;
+  }
+  .solutions .box p, .marketing .box p, .custom-dev .box p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+}
+
